@@ -1,0 +1,154 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --green-accent: #0B4747;
+  --yellow-accent: #ffcc00;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  background-color: var(--green-accent);
+  padding: 1em 2em;
+  min-height: 10vh;
+  display: flex;
+}
+
+nav .nav-logo {
+  width: 50%;
+}
+
+.nav-logo img {
+  width: 15em;
+}
+
+nav .nav-menu {
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between
+}
+
+nav .nav-menu a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 1em;
+  transition: .3s;
+}
+
+nav .nav-menu a:hover {
+  transform: translateY(-2px);
+  border-bottom: 1px solid;
+}
+
+header .header-image {
+  background-image: url('https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/ux-unilag-consult-banner.jpg');
+  min-height: 80vh;
+  background-size: cover;
+  border-bottom: var(--yellow-accent) solid .5em;
+}
+
+main {
+  padding: 2em 5em 5em;
+  display: flex;
+}
+
+main .main-content {
+  width: 70%;
+  margin-right: 5em;
+}
+
+main .main-content h1 {
+  margin-top: 0;
+  color: var(--green-accent);
+  font-weight: 100;
+}
+
+main .main-content .curriculum-container {
+  width: 80%;
+  margin: 2em auto;
+}
+
+.curriculum-container .curriculum-title {
+  background-color: var(--green-accent);
+  color: white;
+  font-weight: bold;
+  padding: 1em 2em;
+}
+
+.curriculum-container .curriculum-body {
+  background: linear-gradient(#FFCC00, #FFE900);
+  padding: 1em 2em;
+}
+
+.curriculum-body p {
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+aside {
+  width: 30%;
+}
+
+aside .aside-container {
+  border-radius: 1em 1em 0 0;
+}
+
+aside .aside-container + .aside-container {
+  margin-top: 2em;
+}
+
+aside .aside-title {
+  background-color: var(--green-accent);
+  color: white;
+  font-weight: bold;
+  padding: 1em 2em;
+  border-radius: 1em 1em 0 0;
+}
+
+aside .aside-body {
+  background-color: #EBEDEC;
+  padding: 1em 2em;
+}
+
+footer {
+  padding: 1em;
+  color: white;
+  background-color: var(--green-accent);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: online;
+}
+
+@media (max-width: 920px) {
+  main {
+    display: block;
+  }
+
+  main .main-content {
+    width: 100%;
+    margin: 0;
+  }
+
+  main aside {
+    width: 100%;
+  }
+}
