@@ -1,0 +1,67 @@
+#contact {
+  width: 100%;
+}
+
+.contact-container {
+  padding: 0 5em;
+}
+
+.contact-map {
+  height: 65vh;
+  width: 100%;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-details-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--green-accent);
+}
+
+.contact-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  align-items: center;
+}
+
+.contact-information {
+  color: var(--green-accent);
+}
+
+.contact-information b {
+  display: inline-block;
+  width: 6em;
+}
+
+.contact-form {
+  color: var(--green-accent);
+  padding-left: 2em;
+  border-left: 2px solid var(--yellow-accent);
+}
+
+.input-container + .input-container {
+  margin-top: 1em;
+}
+
+.input-container label {
+  font-weight: bold;
+  width: 5em;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.input-container input, 
+.input-container textarea {
+  width: calc(100% - 7em);
+  padding: .5em 1em;
+}
+
+.input-container textarea {
+  height: 10em;
+  resize: none;
+}
