@@ -53,7 +53,7 @@
 }
 
 .team-member-profile {
-  height: 0;
+  display: none;
   overflow: hidden;
   transition: .5s;
   margin: 1em 0;
