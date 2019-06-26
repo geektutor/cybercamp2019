@@ -78,6 +78,11 @@
     width: 30vw;
     height: 30vw;
   }
+
+  .team-member.active {
+    grid-row-start: 1;
+    grid-column: 1;
+  }
 }
 
 @media (max-width: 640px) {
