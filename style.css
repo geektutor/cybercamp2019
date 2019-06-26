@@ -325,7 +325,6 @@ aside .aside-body {
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
   border-bottom: .5em solid var(--yellow-accent);
   height: 100vh;
   margin: 0 -5em;
