@@ -406,6 +406,11 @@ footer a {
     position: fixed;
   }
 
+  .header-image {
+    height: 50vh;
+    background-position: center;
+  }
+
   .header li a {
     display: block;
     padding: 1em 2em;
