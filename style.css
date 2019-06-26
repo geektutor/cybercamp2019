@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 @import "team.css";
 @import "showcase.css";
 @import "contact.css";
 
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -122,12 +123,24 @@ aside .aside-container + .aside-container {
   margin-top: 2em;
 }
 
+.aside-container iframe {
+  width: 100%;
+}
+
 aside .aside-title {
   background-color: var(--green-accent);
   color: white;
   font-weight: bold;
   padding: 1em 2em;
   border-radius: 1em 1em 0 0;
+}
+
+.aside-title a {
+  transition: .3s;
+}
+
+.aside-title a:hover {
+  border-bottom: 1px solid white;
 }
 
 aside .aside-body {
