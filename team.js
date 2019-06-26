@@ -1,16 +1,26 @@
-function m1() {
-    var x = document.getElementById("1");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+function removeClass(id) {
+  var active = document.getElementsByClassName(`${id} active`);
+  console.log(active);
+
+  while (active[0]) {
+    active[0].classList.remove('active')
   }
-  function m2() {
-    var x = document.getElementById("2");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+}
+
+function displayProfile(num) {
+  removeClass("team-member");
+  removeClass("team-member-profile");
+  var profile = document.getElementById(`profile-${num}`);
+  var member = document.getElementById(`member-${num}`);
+  if (member.classList.contains("active")) {
+    member.classList.remove("active");
+  } else {
+    member.classList.add("active");
   }
+  if (profile.classList.contains("active")) {
+    profile.classList.remove("active");
+  } else {
+    profile.classList.add("active");
+  }
+  document.getElementById('team').scrollIntoView();
+}
