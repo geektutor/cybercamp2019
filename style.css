@@ -410,6 +410,7 @@ footer a {
     top: 5.5em;
     transform: translateX(100%);
     width: 100%;
+    justify-content: left;
   }
 
   .header .menu-icon {
