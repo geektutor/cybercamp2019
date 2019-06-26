@@ -325,7 +325,6 @@ aside .aside-body {
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
   border-bottom: .5em solid var(--yellow-accent);
   height: 100vh;
   margin: 0 -5em;
@@ -377,6 +376,16 @@ aside .aside-body {
   border-bottom: 1px solid var(--yellow-accent);
 }
 
+.sponsor-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sponsor-container img {
+  width: auto;
+  height: 10em;
+}
+
 footer {
   padding: 1em;
   color: white;
@@ -395,6 +404,11 @@ footer a {
 @media (max-width: 920px) {
   .header {
     position: fixed;
+  }
+
+  .header-image {
+    height: 50vh;
+    background-position: center;
   }
 
   .header li a {
@@ -436,8 +450,23 @@ footer a {
   aside {
     width: 100%;
   }
+  
+  .gallery {
+    margin: 0 -1em;
+  }
 
   .testimonials blockquote {
     width: 100%;
+  }
+
+  .sponsor-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sponsor-container img {
+    width: 10em;
+    height: auto;
+    margin: 1em;
   }
 }
