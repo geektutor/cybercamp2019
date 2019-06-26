@@ -35,7 +35,7 @@ a {
   width: 100%;
   z-index: 3;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .header ul {
@@ -76,7 +76,7 @@ a {
   color: white;
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 57.5%;
 }
 
