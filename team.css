@@ -80,8 +80,7 @@
   }
 
   .team-member.active {
-    grid-row-start: 1;
-    grid-column: 1;
+    grid-column: 1 / 3;
   }
 }
 
@@ -93,5 +92,9 @@
   .team-member-image img {
     width: 50vw;
     height: 50vw;
+  }
+
+  .team-member.active {
+    grid-column: 1;
   }
 }
