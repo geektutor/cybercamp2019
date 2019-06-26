@@ -446,6 +446,10 @@ footer a {
   aside {
     width: 100%;
   }
+  
+  .gallery {
+    margin: 0 -1em;
+  }
 
   .testimonials blockquote {
     width: 100%;
