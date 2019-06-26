@@ -26,7 +26,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
-  align-items: center;
 }
 
 .contact-information {
@@ -64,4 +63,20 @@
 .input-container textarea {
   height: 10em;
   resize: none;
+}
+
+@media (max-width: 920px) {
+  .showcase-container {
+    padding: 0 1em;
+  }
+
+  .video-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .video-container {
+    grid-template-columns: 1fr;
+  }
 }

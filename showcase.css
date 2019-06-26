@@ -30,3 +30,19 @@ iframe {
 .video-container iframe {
   width: 100%;
 }
+
+@media (max-width: 920px) {
+  .showcase-container {
+    padding: 0 1em;
+  }
+
+  .video-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .video-container {
+    grid-template-columns: 1fr;
+  }
+}
