@@ -47,15 +47,15 @@ a {
   background-color: #0B4747;
 }
 
-.header li a {
+.header li a,
+.header li {
   text-decoration: none;
   color: #fff;
-  transition: .3s;
   text-transform: uppercase;
 }
 
 .header li a:hover{
-  border-bottom: 1px solid;
+  text-decoration: underline;
 }
 
 .header .logo {
@@ -78,7 +78,7 @@ a {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  width: 57.5%;
+  width: 75%;
 }
 
 /* menu icon */
@@ -144,32 +144,33 @@ a {
   top: 0;
 }
 
-nav .nav-logo {
-  width: 50%;
+.dropdown {
+  position: relative;
 }
 
-.nav-logo img {
-  width: 15em;
+.dropdown:hover .dropdown-container {
+  height: 20em;
 }
 
-nav .nav-menu {
-  color: white;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between
+.dropdown-container {
+  position: absolute;
+  width: 20em;
+  padding-top: 2em;
+  left: -2em;
+  height: 0;
+  overflow: hidden;
+  transition: height .5s;
 }
 
-nav .nav-menu a {
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin: 0 1em;
-  transition: .3s;
+.dropdown-container a {
+  background-color: var(--green-accent);
+  padding: 1em 2em;
+  display: block;
+  text-transform: capitalize;
 }
 
-nav .nav-menu a:hover {
-  transform: translateY(-2px);
-  border-bottom: 1px solid;
+.dropdown-container a:hover {
+  text-decoration: underline;
 }
 
 .call-to-action {
@@ -180,9 +181,10 @@ nav .nav-menu a:hover {
   transition: .3s;
 }
 
-.call-to-action:hover {
+.menu a.call-to-action:hover {
   background-color: white;
   color: var(--green-accent);
+  text-decoration: none;
 }
 
 header .header-image {
@@ -412,6 +414,24 @@ aside .aside-body {
 
   .header .logo img {
     width: 27.5vw;
+  }
+
+  .dropdown-toggle {
+    padding: 1em 2em;
+  }
+
+  .dropdown-container {
+    position: relative;
+    margin-left: 2em;
+    width: auto;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    height: auto;
+  }
+
+  .dropdown:hover .dropdown-container {
+    height: auto;
   }
 
   main {
