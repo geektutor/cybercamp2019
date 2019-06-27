@@ -67,8 +67,28 @@
   border-collapse: collapse;
 }
 
+.curriculum-schedule a {
+  color: var(--yellow-accent);
+}
+
 th, td {
   padding: 1em;
+}
+
+td.nested-table {
+  padding: 0;
+}
+
+.nested-table table {
+  border: none;
+}
+
+.nested-table tr td {
+  border: none;
+}
+
+.nested-table td + td {
+  border-left: 1px solid #ddd;
 }
 
 th {
@@ -89,5 +109,16 @@ th {
   .curriculum-sidebar {
     width: 100%;
     margin-bottom: 2em;
+  }
+
+  .nested-table table tr > *{
+    display: block;
+  }
+  .nested-table table tr {
+      display: table-cell;
+  }
+  .nested-table td + td {
+    border-top: 1px solid #ddd;
+    border-left: none;
   }
 }
