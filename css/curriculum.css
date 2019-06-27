@@ -43,14 +43,10 @@
   background-color: white;
 }
 
-.curriculum-item.active:before {
-  content: "";
-  width: 2px;
-  background-color: var(--yellow-accent);
-  position: absolute;
-  height: 100%;
-  right: 0;
-  top: 0;
+.curriculum-item.active {
+  border: 2px solid var(--yellow-accent);
+  border-top: none;
+  border-bottom: none;
 }
 
 .curriculum-schedule {
