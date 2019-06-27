@@ -303,9 +303,9 @@ main {
   padding: .5em;
   margin: 1em auto;
   width: 25%;
-  background-color: white;
-  color: var(--yellow-accent);
-  border: 1px solid var(--green-accent);
+  background-color: var(--yellow-accent);
+  color: white;
+  border: 1px solid var(--yellow-accent);
   display: block;
   text-align: center;
   cursor: pointer;
@@ -313,8 +313,8 @@ main {
 }
 
 .view-more-btn:hover {
-  background-color: var(--green-accent);
-  color: white;
+  background-color: white;
+  color: var(--green-accent);
 }
 
 aside {
