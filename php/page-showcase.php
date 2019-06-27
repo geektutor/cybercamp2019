@@ -23,7 +23,7 @@ wp_head(); //* we need this for plugins
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-      <li><a href="https://unilagconsult.com.ng/cybercamp19/#about">About Us</a></li>
+        <li><a href="https://unilagconsult.com.ng/cybercamp19/#about">About Us</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/team#team">Meet The Team</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/showcase#showcase">Showcase</a></li>
         <!--<li><a href="#faq">Faq</a></li>-->
