@@ -19,11 +19,23 @@ wp_head(); //* we need this for plugins
 
 <header>
     <nav class="header">
-      <a href="index.html" class="logo"><img src="https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/cropped-UNILAG-CONSULT3-1.png" alt="Cyber Camp 2019" width="100px"/></a>
+      <a href="https://unilagconsult.com.ng/cybercamp19/" class="logo">
+        <img src="https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/cropped-UNILAG-CONSULT3-1.png" alt="Cyber Camp 2019" width="100px"/>
+      </a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a href="https://unilagconsult.com.ng/cybercamp19/#about">About Us</a></li>
+        <li><a href="index.html#about">About Us</a></li>
+        <div class="dropdown">
+          <li class="dropdown-toggle">Curriculum</li>
+          <div class="dropdown-container">
+              <a href="https://unilagconsult.com.ng/cybercamp19/web-development#curriculum">Web Development</a>
+              <a href="https://unilagconsult.com.ng/cybercamp19/app-development#curriculum">Mobile Application Development</a>
+              <a href="https://unilagconsult.com.ng/cybercamp19/digital-illustration#curriculum">Digital Illustration & Animation</a>
+              <a href="https://unilagconsult.com.ng/cybercamp19/robotics-engineering#curriculum">Robotics Engineering</a>
+              <a href="https://unilagconsult.com.ng/cybercamp19/game-development#curriculum">Game Design & Development</a>
+          </div>
+        </div>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/team#team">Meet The Team</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/showcase#showcase">Showcase</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/contact#contact">Contact</a></li>
