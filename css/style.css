@@ -26,7 +26,6 @@ a {
   text-decoration: none;
 }
 
-
 /* header */
 .header {
   background-color: var(--green-accent);
@@ -70,7 +69,6 @@ a {
 }
 
 /* menu */
-
 .header .menu {
   clear: none;
   max-height: none;
@@ -83,7 +81,6 @@ a {
 }
 
 /* menu icon */
-
 .header .menu-icon {
   cursor: pointer;
   display: none;
@@ -121,7 +118,6 @@ a {
 }
 
 /* menu btn */
-
 .header .menu-btn {
   display: none;
 }
@@ -173,6 +169,20 @@ nav .nav-menu a {
 nav .nav-menu a:hover {
   transform: translateY(-2px);
   border-bottom: 1px solid;
+}
+
+.call-to-action {
+  padding: 1em 2em;
+  background-color: var(--yellow-accent);
+  color: white;
+  width: 50%;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.call-to-action:hover {
+  background-color: white;
+  color: var(--green-accent);
 }
 
 header .header-image {
