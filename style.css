@@ -345,17 +345,6 @@ aside .aside-body {
   position: relative;
 }
 
-.testimonials blockquote {
-  width: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: var(--green-accent);
-  margin: 0;
-}
-
 .testimonials blockquote q {
   font-size: 1.3em;
   font-style: italic;
@@ -453,10 +442,6 @@ footer a {
   
   .gallery {
     margin: 0 -1em;
-  }
-
-  .testimonials blockquote {
-    width: 100%;
   }
 
   .sponsor-container {
