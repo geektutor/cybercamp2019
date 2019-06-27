@@ -2,6 +2,7 @@
 @import "team.css";
 @import "showcase.css";
 @import "contact.css";
+@import "testimonial.css";
 
 * {
   font-family: 'Lato', sans-serif;
@@ -266,21 +267,21 @@ main {
   color: var(--green-accent);
 }
 
-.curriculumd {
+.curriculum-details {
   width: 65%;
-  padding: 2em;
+  padding: 0 2em;
   position: relative;
-  display: none;
+  display: flex;
+  align-items: center;
 }
 
-.curriculumd p {
+.curriculum-details p {
   background-color: white;
-  font-size: 1.2em;
   display: none;
   font-weight: 100;
 }
 
-.curriculumd p.active {
+.curriculum-details p.active {
   display: block;
 }
 
@@ -330,28 +331,6 @@ aside .aside-body {
   background-image: url("https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/ux-unilag-consult-banner.jpg");
   background-size: cover;
   background-attachment: fixed;
-}
-
-.testimonials {
-  display: block;
-  padding: 2em 0;
-  border-bottom: 1px solid var(--yellow-accent);
-  min-height: 85vh;
-  position: relative;
-}
-
-.testimonials blockquote q {
-  font-size: 1.3em;
-  font-style: italic;
-  line-height: 30px;
-  letter-spacing: 2px;
-  font-weight: 100;
-  color: #0B474790;
-}
-
-.testimonial-name {
-  margin: 0.75em 0 0.25em;
-  color: var(--yellow-accent);
 }
 
 .sponsors {
