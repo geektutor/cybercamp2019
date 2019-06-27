@@ -12,6 +12,7 @@ footer {
   display: flex;
   width: 75%;
   margin: 0 auto;
+  padding: 1em 0 2em;
 }
 
 .mission {
@@ -21,6 +22,16 @@ footer {
 
 .mission p {
   width: 50%;
+}
+
+.social-links {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+}
+
+.social-links img {
+  width: 1.5em;
 }
 
 .action-buttons {
@@ -60,5 +71,31 @@ footer {
 @media (max-width: 920px) {
   .footer-content {
     display: block;
+  }
+
+  .mission {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mission p {
+    width: 100%;
+  }
+
+  .action-buttons {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .call-to-action {
+    width: 100%;
+    margin: .5em 0;
+  }
+
+  .social-links {
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 1em 0;
   }
 }
