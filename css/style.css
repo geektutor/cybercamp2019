@@ -3,6 +3,7 @@
 @import "showcase.css";
 @import "contact.css";
 @import "testimonial.css";
+@import "footer.css";
 
 * {
   font-family: 'Lato', sans-serif;
@@ -336,7 +337,6 @@ aside .aside-body {
 .sponsors {
   display: block;
   padding: 2em 0;
-  border-bottom: 1px solid var(--yellow-accent);
 }
 
 .sponsor-container {
@@ -347,21 +347,6 @@ aside .aside-body {
 .sponsor-container img {
   width: auto;
   height: 10em;
-}
-
-footer {
-  padding: 1em;
-  color: white;
-  background-color: var(--green-accent);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-
-footer a {
-  color: white;
-  text-decoration: online;
 }
 
 @media (max-width: 920px) {

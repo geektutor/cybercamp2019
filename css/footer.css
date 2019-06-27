@@ -1,0 +1,64 @@
+footer {
+  padding: 1em;
+  color: white;
+  background-color: var(--green-accent);
+  width: 100%;
+  text-align: center;
+  border-top: .5em solid var(--yellow-accent);
+}
+
+
+.footer-content {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mission {
+  width: 50%;
+  text-align: left;
+}
+
+.mission p {
+  width: 50%;
+}
+
+.action-buttons {
+  width: 50%;
+  padding: 1em;
+  text-align: right;
+}
+
+.call-to-action {
+  padding: 1em 2em;
+  background-color: var(--yellow-accent);
+  color: white;
+  display: inline-block;
+  margin: .5em 1em;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.call-to-action:hover {
+  background-color: white;
+  color: var(--green-accent);
+}
+
+.copyright {
+  border-top: 1px solid;
+  padding-top: 1em;
+  margin: 0 -1em;
+}
+
+.copyright a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 920px) {
+  .footer-content {
+    display: block;
+  }
+}
