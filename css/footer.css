@@ -73,6 +73,7 @@ footer {
 @media (max-width: 920px) {
   .footer-content {
     display: block;
+    width: 100%;
   }
 
   .mission {

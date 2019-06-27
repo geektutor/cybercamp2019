@@ -362,6 +362,7 @@ aside .aside-body {
 @media (max-width: 920px) {
   .header {
     position: fixed;
+    padding: 1em;
   }
 
   .header-image {
@@ -423,6 +424,8 @@ aside .aside-body {
   
   .divider {
     margin: 0 -1em;
+    height: 50vh;
+    background-size: contain;
   }
 
   .sponsor-container {
