@@ -24,7 +24,7 @@ wp_head(); //* we need this for plugins
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a href="index#about">About Us</a></li>
+        <li><a href="https://unilagconsult.com.ng/cybercamp19/#about">About Us</a></li>
         <div class="dropdown">
           <li class="dropdown-toggle">Curriculum</li>
           <div class="dropdown-container">
@@ -73,28 +73,28 @@ wp_head(); //* we need this for plugins
               <p>This course is intended to provide beginners with the basic knowledge of website design and development. It will start out with a proper introduction to the necessary languages needed for designing websites and a training on accessibility (a11y) and semantic elements.<br>There will also be a thinking workshop which shows the students the best way to find out solutions to problems their trying to fix online.</p>
               <p>Over the duration of the program, the students will apply the knowledge they were taught in class towards developing a fully functional, responsive and aesthetically pleasing portfolio page which will display their projects from the other workshops.</p>
               <p>The students will also be given an introductory course to working with version control using Git and Github and they will be taught how to deploy static websites to Git Pages.</p>
-              <a class="view-more-btn" href="web-development.html#curriculum">View More</a>
+              <a class="view-more-btn" href="https://unilagconsult.com.ng/cybercamp19/web-development#curriculum">View More</a>
             </div>
             <div class="curriculumd" id="mad">
               <p>Build an original app for Android or iOS by learning the fundamentals of app development; programming, event handling, debugging, design and prototyping. Create simple interfaces, manage multiple views and learn to code in Swift, Python, Java, Scratch and more.</p>
-              <a class="view-more-btn" href="app-development.html#curriculum">View More</a>
+              <a class="view-more-btn" href="https://unilagconsult.com.ng/cybercamp19/app-development#curriculum">View More</a>
             </div>
             <div class="curriculumd" id="dia">
               <p>Digital illustration students build upon foundation skills in drawing, color theory, perspective, and composition to create original, effective, and audience-appropriate illustrations using various digital techniques. Assignments are based on jobs typical of those given in the professional arena such as advertising, user interface design, publishing, concept, and editorial illustration.</p>
               <p>Digital illustration students are required to develop skills with both raster and vector based illustration software, as well as computer hardware, including scanners and tablets.</p>
-              <a class="view-more-btn" href="digital-illustration.html#curriculum">View More</a>
+              <a class="view-more-btn" href="https://unilagconsult.com.ng/cybercamp19/digital-illustration#curriculum">View More</a>
             </div>
             <div class="curriculumd" id="re">
               <p>This course introduces students to practical aspects of modern robotics. 
               The students will gain an overview of the history and development of robots,review the work of early contributors to the field, view videos and have class discussions about what they’ve seen. They learn about the features that differentiate a robot from other machines; these features include the “brains”, “senses” and “arms” of a robot.</p>
               <p>They learn about how a robot “thinks”; they get to learn of the role of computers in robots and the language used to communicate with computers they get to learn how to use the Arduino programming platform and the Arduino Nano controller board.</p>
               <p>They learn about robot arms and extensors; they learn about electric motors that allow robots to interact with their environment, to move, to carry objects; they learn to write simple commands to control the motors in the class robot.</p>
-              <a class="view-more-btn" href="robotics-engineering.html#curriculum">View More</a>
+              <a class="view-more-btn" href="https://unilagconsult.com.ng/cybercamp19/robotics-engineering#curriculum">View More</a>
             </div>
             <div class="curriculumd" id="gd">
               <p>This course introduces students with no knowledge of coding or game development how games work under the hood. The students will gain the basics of game design and discover how to make a game with no prior experience at all.</p> 
               <p>The students will also learn how to use the digital creation tool ready.io to create their very first game. Students who decide to specialise in game design and development will then get exposed to the tools professionals use in the real world to make video games.</p>
-              <a class="view-more-btn" href="game-development.html#curriculum">View More</a>
+              <a class="view-more-btn" href="https://unilagconsult.com.ng/cybercamp19/game-development#curriculum">View More</a>
             </div>
           </div>
         </section>
