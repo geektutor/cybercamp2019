@@ -33,8 +33,10 @@ footer {
   justify-content: space-between;
 }
 
-.social-links img {
+.social-links img {   
   width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
 }
 
 .cyber-gif {
