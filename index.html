@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="testimonial.css">
     <script src="testimonial.js"></script>
+    <script src="tab.js"></script>
     <title>Cyber Camp</title>
 </head>
 <body>
@@ -43,19 +44,23 @@
         </h2>
         <section class="curriculum-container">
           <div class="curriculum-topics" id="curriculum-topics">
-            <p class="active">Web Development</p>
-            <p>Mobile Application Development</p>
-            <p>Digital Illustration & Animation</p>
-            <p>Robotics Engineering</p>
-            <p>Game Design & Development</p>
+            <p class="tablink" onclick="openTab(event,'wd')">Web Development</p>
+            <p onclick="openTab(event, 'mad')" class="tablink">Mobile Application Development</p>
+            <p onclick="openTab(event, 'dia')" class="tablink">Digital Illustration & Animation</p>
+            <p onclick="openTab(event, 're')" class="tablink">Robotics Engineering</p>
+            <p onclick="openTab(event,'gd')" class="tablink">Game Design & Development</p>
           </div>
-          <div class="curriculum-details" id="curriculum-details">
+          <!--Tab Content-->
+          <div class="curriculumd" id="wd">
             <p class="active">Unlock your potential and learn how to build a website, exploring the fundamentals of coding structures and principles, problem solving skills and logical thinking processes through interactive projects using HTML, CSS, JavaScript, and more.</p>
             <p>Build an original app for Android or iOS by learning the fundamentals of app development; programming, event handling, debugging, design and prototyping. Create simple interfaces, manage multiple views and learn to code in Swift, Python, Java, Scratch and more.</p>
             <p>Discover the design process as you explore 2D illustration and animation by drawing and illustrating your own animations. Learn to use Photoshop to get an in-depth look at the professional illustration pipeline, focusing on illustration and pre-production.</p>
             <p>Learn computer science concepts, from computational thinking through writing interactive programs, and see your robots in action. Hands-on robotics programming and engineering using Arduino. This growing field impacts the world, from medicine to farming.</p>
             <p>Designing digital games requires decision-making, time and project management, presentation skills, and the ability to generate ideas. Learn professional techniques and tools used by industry pros to make hit video games.</p>
           </div>
+          <div class="curriculumd" id="mad">
+              <p class="active">presentation skills, and the ability to generate ideas. Learn professional techniques and tools used by industry pros to make hit video games.</p>
+            </div>
         </section>
       </section>
       <aside>
