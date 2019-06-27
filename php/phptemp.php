@@ -26,7 +26,7 @@ wp_head(); //* we need this for plugins
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="index#about">About Us</a></li>
         <div class="dropdown">
           <li class="dropdown-toggle">Curriculum</li>
           <div class="dropdown-container">
