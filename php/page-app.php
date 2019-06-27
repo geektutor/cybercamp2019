@@ -1,6 +1,6 @@
 <?php
 /*
-	Template Name: Showcase Template
+	Template Name: App Page Template
 */
 do_action( 'genesis_doctype' );
 do_action( 'genesis_title' );
@@ -16,6 +16,7 @@ wp_head(); //* we need this for plugins
 </head>
 
 <body>
+
 
 <header>
     <nav class="header">
@@ -46,27 +47,80 @@ wp_head(); //* we need this for plugins
       
     </div>
   </header>
+
   <main>
-    <section id="showcase">
-      <h1 class="section-title">Our <b>Showcase</b></h1>
-      <div class="showcase-container">
-        <div class="main-video">
-            <iframe src="https://www.youtube.com/embed/3c_EA6z4GQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section id="curriculum">
+      <h1 class="section-title">Mobile <b>Application Development Curriculum</b></h1>
+      <div class="main-content">
+        <div class="curriculum-content">
+            <h2>Summary</h2>
+            <p>Build an original app for Android or iOS by learning the fundamentals of app development; programming, event handling, debugging, design and prototyping. Create simple interfaces, manage multiple views and learn to code in Swift, Python, Java, Scratch and more.</p>
         </div>
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/Bq7brBksvQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/yVq75j2ii5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/fD8zqjFrSCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/oQHrdk7JWKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/-nj4-ZEp9UA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/GuJYwxw6Zks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/3t1StIyrwQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/8fDOUtYii90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/embed/3c_EA6z4GQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <aside class="curriculum-sidebar">
+          <div class="aside-title">
+            Curriculum
+          </div>
+          <a href="web-development.html#curriculum" class="curriculum-item">Web Development</a>
+          <a href="app-development.html#curriculum" class="curriculum-item active">Mobile Application Development</a>
+          <a href="digital-illustration.html#curriculum" class="curriculum-item">Digital Illustration & Animation</a>
+          <a href="robotics-engineering.html#curriculum" class="curriculum-item">Robotics Engineering</a>
+          <a href="game-development.html#curriculum" class="curriculum-item">Game Design & Development</a>
+        </aside>
+      </div>
+      <div class="curriculum-schedule">
+          <table>
+            <tr>
+              <th>Schedule</th>
+              <th>Exercises</th>
+            </tr>
+            <tr>
+              <td>
+                <b>Day 1:</b><br>Introduction to Android Mobile Application Development
+              </td>
+              <td class="nested-table">
+                <table>
+                  <tr>
+                    <td>
+                      <b>Introduction:</b><br>Introduction of tutors and introduction to mobile
+                      application development
+                    </td>
+                    <td>
+                      <b>Overview of mobile development:</b><br>Introduction to applications that will be built during the specialisation phase and tools to be used
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td><b>Day 1:</b><br>
+                Specialisation in mobile application development
+              </td>
+              <td>
+                Introduction to Java, printing text, variables, operators, classes and objects, data types, loops and arrays
+              </td>
+            </tr>
+            <tr>
+              <td><b>Day 2:</b><br>
+                Specialisation in mobile application development
+              </td>
+              <td>
+                Introduction to Android studio, Layouts Editing with XML, Application logic control flow with Java
+              </td>
+            </tr>
+            <tr>
+              <td><b>Day 3-5:</b><br>
+                Specialisation in mobile application development
+              </td>
+              <td>
+                Application of concepts learned and Project implementation.
+                Calculator application
+              </td>
+            </tr>
+          </table>
       </div>
     </section>
   </main>
+
   <footer>
     <div class="footer-content">
       <div class="mission">
@@ -96,7 +150,9 @@ wp_head(); //* we need this for plugins
       &copy; 2019. <a href="http://unilagconsult.com.ng/" target="_blank">Unilag Consult</a>
     </div>
   </footer>
-
+  <?php
+	wp_footer(); //* we need this for plugins
+	?>
 </body>
 <script src="https://unilagconsult.com.ng/cybercamp19/wp/js/index.js"></script>
 </html>

@@ -16,6 +16,8 @@ wp_head(); //* we need this for plugins
 </head>
 
 <body>
+
+
 <header>
     <nav class="header">
       <a href="https://unilagconsult.com.ng/cybercamp19/" class="logo">
@@ -47,6 +49,39 @@ wp_head(); //* we need this for plugins
   </header>
 
 
+
+  <footer>
+    <div class="footer-content">
+      <div class="mission">
+        <h3>Unilag Consult Cyber Camp</h3>
+        <p>
+          Cyber Camp was born on the premise and need to capacitate young Nigerians with modern 
+          technological skills in various Information Technology specialization areas and it is targeted 
+          at Secondary School students between the ages of 10 and 17 years.<br>Our teaching approach is based on 
+          a hands-on delivery model which is guaranteed to impact real technical knowledge on our Campers.
+        </p>
+        <div class="social-links">
+          <a href="https://twitter.com/uccybercamp" target="_blank" title="Twitter"><img src="https://unilagconsult.com.ng/cybercamp19/wp/wp-content/uploads/2019/06/twitter-logo.png" alt="Twitter"></a>
+          <a href="https://www.facebook.com/uccybercamp" target="_blank" title="Facebook"><img src="https://unilagconsult.com.ng/cybercamp19/wp/wp-content/uploads/2019/06/facebook-logo.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/uccybercamp/" target="_blank" title="Instagram"><img src="https://unilagconsult.com.ng/cybercamp19/wp/wp-content/uploads/2019/06/instagram.png" alt="Instagram"></a>
+          <a href="https://www.youtube.com/channel/UCsfXUlZkhFQee9pyQV7NdjA" target="_blank" title="Youtube"><img src="https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/youtube_icon.png" alt="Youtube"></a>
+        </div>
+      </div>
+      <div class="cyber-gif">
+        <img src="https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/ccamp19.png" alt="Cyber Camp">
+      </div>
+      <div class="action-buttons">
+        <a href="https://paystack.com/pay/cybercamp" class="call-to-action register">Register</a>
+        <a href="http://unilagconsult.com.ng/cybercamp19/contact#contact" class="call-to-action contact">Not Convinced?</a>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2019. <a href="http://unilagconsult.com.ng/" target="_blank">Unilag Consult</a>
+    </div>
+  </footer>
+  <?php
+	wp_footer(); //* we need this for plugins
+	?>
 </body>
 <script src="https://unilagconsult.com.ng/cybercamp19/wp/js/index.js"></script>
 </html>
