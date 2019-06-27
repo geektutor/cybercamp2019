@@ -7,7 +7,6 @@ footer {
   border-top: .5em solid var(--yellow-accent);
 }
 
-
 .footer-content {    
   display: flex;
   width: 90%;
@@ -40,10 +39,13 @@ footer {
 
 .cyber-gif {
   width: 30%;
+  overflow: hidden;
 }
 
 .cyber-gif img {
   width: 100%;
+  animation: marquee 5s infinite linear;
+  transform: translateX(100%)
 }
 
 .action-buttons {
@@ -67,7 +69,6 @@ footer {
 
 .copyright a {
   color: white;
-  text-decoration: underline;
 }
 
 @media (max-width: 920px) {
@@ -105,4 +106,12 @@ footer {
     justify-content: space-evenly;
     margin: 1em 0;
   }
+}
+
+@keyframes marquee {
+  0% {transform: translateX(100%)}
+  20% {transform: translateX(0)}
+  75% {transform: translateX(0)}
+  95% {transform: translateX(-100%); display: none}
+  100% {transform: translateX(-100%); display: block}
 }
