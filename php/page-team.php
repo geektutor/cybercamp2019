@@ -250,8 +250,8 @@ wp_head(); //* we need this for plugins
         <img src="https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/ccamp19.png" alt="Cyber Camp">
       </div>
       <div class="action-buttons">
-        <a class="call-to-action register">Register</a>
-        <a href="contact.html#contact" class="call-to-action contact">Not Convinced?</a>
+        <a href="http://paystack.com/pay/cybercamp" class="call-to-action register">Register</a>
+        <a href="https://unilagconsult.com.ng/cybercamp19/contact#contact" class="call-to-action contact">Not Convinced?</a>
       </div>
     </div>
     <div class="copyright">

@@ -113,7 +113,7 @@ wp_head(); //* we need this for plugins
         </div>
         <div class="aside-container showcase">
             <div class="aside-title">
-              <a href="showcase.html#showcase">Showcase</a>
+              <a href="https://unilagconsult.com.ng/cybercamp19/showcase#showcase">Showcase</a>
             </div>
             <iframe src="https://www.youtube.com/embed/3c_EA6z4GQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
