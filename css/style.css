@@ -4,6 +4,7 @@
 @import "contact.css";
 @import "testimonial.css";
 @import "footer.css";
+@import "curriculum.css";
 
 * {
   font-family: 'Lato', sans-serif;
@@ -285,15 +286,33 @@ main {
   align-items: center;
 }
 
-.curriculum-details p {
+.curriculum-details .curriculumd {
   background-color: white;
   display: none;
   font-weight: 100;
   text-align: justify;
 }
 
-.curriculum-details p.active {
+.curriculum-details .curriculumd.active {
   display: block;
+}
+
+.view-more-btn {
+  padding: .5em;
+  margin: 1em auto;
+  width: 25%;
+  background-color: white;
+  color: var(--yellow-accent);
+  border: 1px solid var(--green-accent);
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.view-more-btn:hover {
+  background-color: var(--green-accent);
+  color: white;
 }
 
 aside {

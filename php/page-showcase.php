@@ -26,7 +26,6 @@ wp_head(); //* we need this for plugins
         <li><a href="https://unilagconsult.com.ng/cybercamp19/#about">About Us</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/team#team">Meet The Team</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/showcase#showcase">Showcase</a></li>
-        <!--<li><a href="#faq">Faq</a></li>-->
         <li><a href="https://unilagconsult.com.ng/cybercamp19/contact#contact">Contact</a></li>
         <li><a href="https://paystack.com/pay/cybercamp" class="call-to-action">Register</a></li>
       </ul>
@@ -78,7 +77,7 @@ wp_head(); //* we need this for plugins
       </div>
       <div class="action-buttons">
         <a class="call-to-action register">Register</a>
-        <a class="call-to-action contact">Contact Us</a>
+        <a href="contact.html#contact" class="call-to-action contact">Not Convinced?</a>
       </div>
     </div>
     <div class="copyright">

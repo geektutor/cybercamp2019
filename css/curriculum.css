@@ -1,0 +1,93 @@
+.curriculum-content {
+  width: 65%;
+}
+
+.curriculum-content h2 {
+  margin: 0;
+}
+
+.curriculum-content p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.curriculum-content article b {
+  font-size: 1.1em;
+}
+
+.curriculum-content article ul {
+  margin-top: .5em;
+}
+
+.curriculum-sidebar {
+  width: 30%;
+}
+
+.curriculum-item {
+  display: block;
+  padding: 1em 2em;
+  background-color: #EBEDEC;
+  position: relative;
+  transition: .5s;
+}
+
+.curriculum-item + .curriculum-item {
+  border-top: 1px solid white;
+}
+
+.curriculum-item:hover {
+  background-color: white;
+}
+
+.curriculum-item.active {
+  background-color: white;
+}
+
+.curriculum-item.active:before {
+  content: "";
+  width: 2px;
+  background-color: var(--yellow-accent);
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.curriculum-schedule {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.curriculum-schedule table {
+  width: 100%;
+}
+
+.curriculum-schedule table, th, td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1em;
+}
+
+th {
+  background-color: var(--yellow-accent);
+  color: white;
+}
+
+@media (max-width: 992px) {
+  #curriculum .main-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .curriculum-content {
+    width: 100%;
+  }
+
+  .curriculum-sidebar {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}

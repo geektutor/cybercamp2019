@@ -59,6 +59,8 @@ footer {
   margin: .5em 0em;
   text-align: center;
   width: 75%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .copyright {
