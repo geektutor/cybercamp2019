@@ -410,6 +410,18 @@ footer a {
     width: 100%;
   }
 
+  .curriculum-container {
+    flex-direction: column;
+  }
+
+  .curriculum-topics {
+    width: 100%;
+  }
+
+  .curriculum-details {
+    width: 100%;
+  }
+
   aside {
     width: 100%;
   }
