@@ -77,11 +77,11 @@ wp_head(); //* we need this for plugins
             Details
           </div>
           <div class="aside-body">
-            <p><b>Duration: </b>The camp will last for 6 weeks from Monday July 29 to Friday September 6, 2019, i.</p>
+          <p><b>Duration: </b>The camp will last for 6 weeks from Monday July 29 to Friday September 6, 2019</p>
             <p><b>Time: </b>Training sessions will hold from 9am to 2pm on weekdays.</p>
             <p><b>Certification: </b>Participants will get a certificate of technical proficiency.</p>
-            <p><b>Fee: </b>The total cost of the packa.</p>
-          </div>
+            <p><b>Fee: </b>The cost of the program is <b>N70,000</b> (seventy thousand naira).</p>
+        </div>
         </div>
         <div class="aside-container showcase">
             <div class="aside-title">
