@@ -18,6 +18,7 @@
 .team-member.active {    
   grid-row-start: 1;
   grid-column: 1 / 5;
+  cursor: default;
 }
 
 .team-member:hover {
@@ -62,7 +63,8 @@
   display: none;
   overflow: hidden;
   transition: .5s;
-  margin: 1em 0;
+  text-align: justify;
+  padding: 2em;
 }
 
 .team-member-profile.active {
