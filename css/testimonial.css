@@ -66,7 +66,7 @@
 	height: .5em;
 	margin-top: 1em;
 	display: inline-block;
-	background: #999;
+	background: #EBEDEC;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -81,7 +81,7 @@
 .testimonial_slider_2 #slide_2_3:checked ~ #controls label:nth-child(3), 
 .testimonial_slider_2 #slide_2_4:checked ~ #controls label:nth-child(4), 
 .testimonial_slider_2 #slide_2_5:checked ~ #controls label:nth-child(5){
-	background:#000; /* Change controls background color when mouse click */
+	background:var(--green-accent); /* Change controls background color when mouse click */
 }
 
 .testimonial_2 {
