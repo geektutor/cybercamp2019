@@ -1,6 +1,6 @@
 <?php
 /*
-	Template Name: Showcase Template
+	Template Name: Template Template
 */
 do_action( 'genesis_doctype' );
 do_action( 'genesis_title' );
