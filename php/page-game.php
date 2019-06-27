@@ -89,11 +89,11 @@ wp_head(); //* we need this for plugins
           <div class="aside-title">
             Curriculum
           </div>
-          <a href="web-development.html#curriculum" class="curriculum-item">Web Development</a>
-          <a href="app-development.html#curriculum" class="curriculum-item">Mobile Application Development</a>
-          <a href="digital-illustration.html#curriculum" class="curriculum-item">Digital Illustration & Animation</a>
-          <a href="robotics-engineering.html#curriculum" class="curriculum-item">Robotics Engineering</a>
-          <a href="game-development.html#curriculum" class="curriculum-item active">Game Design & Development</a>
+          <a href="https://unilagconsult.com.ng/cybercamp19/web-development#curriculum" class="curriculum-item">Web Development</a>
+          <a href="https://unilagconsult.com.ng/cybercamp19/app-development#curriculum" class="curriculum-item">Mobile Application Development</a>
+          <a href="https://unilagconsult.com.ng/cybercamp19/digital-illustration#curriculum" class="curriculum-item">Digital Illustration & Animation</a>
+          <a href="https://unilagconsult.com.ng/cybercamp19/robotics-engineering#curriculum" class="curriculum-item">Robotics Engineering</a>
+          <a href="https://unilagconsult.com.ng/cybercamp19/game-development#curriculum" class="curriculum-item active">Game Design & Development</a>
         </aside>
       </div>
       <div class="curriculum-schedule">
