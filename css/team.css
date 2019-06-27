@@ -38,14 +38,6 @@
   margin: .5em 0;
 }
 
-a.team-member-name {
-  display: block;
-}
-
-a.team-member-name:hover {
-  text-decoration: underline;
-}
-
 .team-member-role {
   font-size: .8em;
   font-weight: 100;
@@ -77,6 +69,14 @@ a.team-member-name:hover {
 
 .team-member-profile.active {
   display: block;
+}
+
+.team-member-profile a {
+  color: var(--yellow-accent);
+}
+
+.team-member-profile a:hover {
+  text-decoration: underline;
 }
 
 .social-media {
