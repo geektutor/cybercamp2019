@@ -8,20 +8,24 @@ footer {
 }
 
 
-.footer-content {
+.footer-content {    
   display: flex;
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   padding: 1em 0 2em;
+  align-items: center;
+  justify-content: center;
 }
 
 .mission {
-  width: 50%;
+  width: 30%;
   text-align: left;
 }
 
 .mission p {
-  width: 50%;
+  width: 80%;
+  margin: 1em 0 2em 0;
+  text-align: justify;
 }
 
 .social-links {
@@ -34,16 +38,25 @@ footer {
   width: 1.5em;
 }
 
+.cyber-gif {
+  width: 30%;
+}
+
+.cyber-gif img {
+  width: 100%;
+}
+
 .action-buttons {
-  width: 50%;
+  width: 30%;
   padding: 1em;
   text-align: right;
 }
 
 .action-buttons .call-to-action {
   display: inline-block;
-  margin: .5em 1em;
+  margin: .5em 0em;
   text-align: center;
+  width: 75%;
 }
 
 .copyright {
@@ -69,6 +82,10 @@ footer {
 
   .mission p {
     width: 100%;
+  }
+
+  .cyber-gif {
+    display: none;
   }
 
   .action-buttons {

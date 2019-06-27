@@ -29,7 +29,7 @@ a {
 /* header */
 .header {
   background-color: var(--green-accent);
-  padding: 1em 2em;
+  padding: 1em 5em;
   min-height: 10vh;
   display: flex;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -76,7 +76,7 @@ a {
   color: white;
   display: flex;
   align-items: flex-end;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 57.5%;
 }
 
@@ -175,7 +175,6 @@ nav .nav-menu a:hover {
   padding: 1em 2em;
   background-color: var(--yellow-accent);
   color: white;
-  width: 50%;
   cursor: pointer;
   transition: .3s;
 }
@@ -290,6 +289,7 @@ main {
   background-color: white;
   display: none;
   font-weight: 100;
+  text-align: justify;
 }
 
 .curriculum-details p.active {
