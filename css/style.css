@@ -333,6 +333,7 @@ aside .aside-body {
   background-color: #EBEDEC;
   padding: 1em 2em;
   border-radius: 0 0 1em 1em;
+  text-align: justify;
 }
 
 .divider {
