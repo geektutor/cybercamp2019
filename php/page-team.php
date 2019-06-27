@@ -205,7 +205,7 @@ wp_head(); //* we need this for plugins
       </div>
       <div class="action-buttons">
         <a class="call-to-action register">Register</a>
-        <a class="call-to-action contact">Contact Us</a>
+        <a href="contact.html#contact" class="call-to-action contact">Contact Us</a>
       </div>
     </div>
     <div class="copyright">
