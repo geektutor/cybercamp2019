@@ -10,7 +10,7 @@
             $pinErr = '<p style = "color:red; float:left"><b>Pin is required</b><p>';
             $shouldConnect = false;
         }
-        elseif(!filter_var(test_input($_POST["pin"]), FILTER_VALIDATE_pin)){
+        elseif(!(test_input($_POST["pin"]))){
             $pinErr = '<p style = "color:red; float:left"><b>Please Enter a Valid Pin</b><p>';
             $shouldConnect = false;
         }
@@ -24,9 +24,9 @@
             if(count($res) === 0) $alert = '<h3 class="failed">Failed to Update. Please use the pin you
             received when you paid or <a href="register.php" class="link-to-reg"> pay here</a></h3>';
             else{
-                $sql = 'UPDATE attend SET used = used WHERE pin = :pin';
+                $sql = 'UPDATE attend SET status = "used" WHERE pin = :pin';
                 $stmnt = $pdo->prepare($sql);
-                $stmnt->execute(['used' => used, 'pin' => $pin]);
+                $stmnt->execute(['status' => used, 'pin' => $pin]);
                 if($stmnt){
                     $alert = "<h3 class='successful'>Redirect Here</h3>";
                 } 
@@ -49,22 +49,11 @@
   <meta name="author" content="ECX Team">
 
   <title>Unilag Consult Pin</title>
-  <link rel="shortcut icon" type="image/png" href="images/logo.png" />
 
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
-    type="text/css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="index.css" rel="stylesheet" media="all">
-  <link href="change.css" rel="stylesheet">
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-  <link href="css/agency.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="https://unilagconsult.com.ng/cybercamp19/wp/css/style.css">
+
 
 </head>
 <body>
