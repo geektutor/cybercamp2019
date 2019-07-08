@@ -1,6 +1,6 @@
 <?php
 /*
-	Template Name: App Page Template
+	Template Name: Template Template
 */
 do_action( 'genesis_doctype' );
 do_action( 'genesis_title' );
@@ -43,83 +43,32 @@ wp_head(); //* we need this for plugins
         <li><a href="https://unilagconsult.com.ng/cybercamp19/pay" class="call-to-action">Register</a></li>
       </ul>
     </nav>
-    <div class="header-image">
-      
-    </div>
   </header>
-
   <main>
-    <section id="curriculum">
-      <h1 class="section-title">Mobile <b>Application Development Curriculum</b></h1>
-      <div class="main-content">
-        <div class="curriculum-content">
-            <h2>Summary</h2>
-            <p>Build an original app for Android or iOS by learning the fundamentals of app development; programming, event handling, debugging, design and prototyping. Create simple interfaces, manage multiple views and learn to code in Swift, Python, Java, Scratch and more.</p>
-        </div>
-        <aside class="curriculum-sidebar">
-          <div class="aside-title">
-            Curriculum
-          </div>
-          <a href="https://unilagconsult.com.ng/cybercamp19/web-development#curriculum" class="curriculum-item">Web Development</a>
-          <a href="https://unilagconsult.com.ng/cybercamp19/app-development#curriculum" class="curriculum-item active">Mobile Application Development</a>
-          <a href="https://unilagconsult.com.ng/cybercamp19/digital-illustration#curriculum" class="curriculum-item">Digital Illustration & Animation</a>
-          <a href="https://unilagconsult.com.ng/cybercamp19/robotics-engineering#curriculum" class="curriculum-item">Robotics Engineering</a>
-          <a href="https://unilagconsult.com.ng/cybercamp19/game-development#curriculum" class="curriculum-item">Game Design & Development</a>
-        </aside>
-      </div>
-      <div class="curriculum-schedule">
-          <table>
-            <tr>
-              <th>Schedule</th>
-              <th>Exercises</th>
-            </tr>
-            <tr>
-              <td>
-                <b>Day 1:</b><br>Introduction to Android Mobile Application Development
-              </td>
-              <td class="nested-table">
-                <table>
-                  <tr>
-                    <td>
-                      <b>Introduction:</b><br>Introduction of tutors and introduction to mobile
-                      application development
-                    </td>
-                    <td>
-                      <b>Overview of mobile development:</b><br>Introduction to applications that will be built during the specialisation phase and tools to be used
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <tr>
-              <td><b>Day 1:</b><br>
-                Specialisation in mobile application development
-              </td>
-              <td>
-                Introduction to Java, printing text, variables, operators, classes and objects, data types, loops and arrays
-              </td>
-            </tr>
-            <tr>
-              <td><b>Day 2:</b><br>
-                Specialisation in mobile application development
-              </td>
-              <td>
-                Introduction to Android studio, Layouts Editing with XML, Application logic control flow with Java
-              </td>
-            </tr>
-            <tr>
-              <td><b>Day 3-5:</b><br>
-                Specialisation in mobile application development
-              </td>
-              <td>
-                Application of concepts learned and Project implementation.
-                Calculator application
-              </td>
-            </tr>
-          </table>
-      </div>
-    </section>
-  </main>
+        <section id="contact">
+            <div class="contact-container">
+                <p class="contact-details-title"> To begin the registration process, kindly pay the fee through one of the following channels:</p>
+                <div class="contact-details">
+                    <div class="contact-information">
+                        <p>
+                            Cash deposit to:
+                        </p>
+                        <p>
+                            Unilag Consult Ltd.
+                            <br>
+                            <b> 2029937936 </b><br>
+                            <i> First Bank Nigeria </i><br><br> After payment, send a mail with proof of payment to <b>cybercamp19@unilagconsult.com.ng</b><br> (Kindly include the keyword 'cybercamp' in the detail)
+                        </p>
+                    </div>
+                    <div class="contact-form">
+                        Pay online with Paystack <br><br>
+                        <a href="https://paystack.com/pay/cybercamp"><img src="https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/07/paystack-badge-cards-horizontal.png" width="90%" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
   <footer>
     <div class="footer-content">

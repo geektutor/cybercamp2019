@@ -37,7 +37,7 @@ wp_head(); //* we need this for plugins
         <li><a href="https://unilagconsult.com.ng/cybercamp19/team#team">Meet The Team</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/showcase#showcase">Showcase</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/contact#contact">Contact</a></li>
-        <li><a href="https://paystack.com/pay/cybercamp" class="call-to-action">Register</a></li>
+        <li><a href="https://unilagconsult.com.ng/cybercamp19/pay" class="call-to-action">Register</a></li>
       </ul>
     </nav>
     <div class="header-image">
@@ -97,7 +97,7 @@ wp_head(); //* we need this for plugins
         <img src="https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/ccamp19.png" alt="Cyber Camp">
       </div>
       <div class="action-buttons">
-        <a href="https://paystack.com/pay/cybercamp" class="call-to-action register">Register</a>
+        <a href="https://unilagconsult.com.ng/cybercamp19/pay" class="call-to-action register">Register</a>
         <a href="http://unilagconsult.com.ng/cybercamp19/contact#contact" class="call-to-action contact">Not Convinced?</a>
       </div>
     </div>

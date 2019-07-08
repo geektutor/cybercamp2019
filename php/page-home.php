@@ -38,7 +38,7 @@ wp_head(); //* we need this for plugins
         <li><a href="https://unilagconsult.com.ng/cybercamp19/team#team">Meet The Team</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/showcase#showcase">Showcase</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/contact#contact">Contact</a></li>
-        <li><a href="https://paystack.com/pay/cybercamp" class="call-to-action">Register</a></li>
+        <li><a href="https://unilagconsult.com.ng/cybercamp19/pay" class="call-to-action">Register</a></li>
       </ul>
     </nav>
     <div class="header-image">
@@ -109,6 +109,8 @@ wp_head(); //* we need this for plugins
             <p><b>Time: </b>Training sessions will hold from 9am to 2pm on weekdays.</p>
             <p><b>Certification: </b>Participants will get a certificate of technical proficiency.</p>
             <p><b>Fee: </b>The cost of the program is <b>N70,000</b> (seventy thousand naira).</p>
+            <p><b>Payment Method: </b>Cash deposit to Unilag Consult Ltd., <b>2029937936</b>, First Bank Nigeria</p>
+            <p> After payment, send a mail with proof of payment to <b>cybercamp19@unilagconsult.com.ng</b> (Kindly include the keyword 'cybercamp' in the detail) </p>
           </div>
         </div>
         <div class="aside-container showcase">
@@ -228,7 +230,7 @@ wp_head(); //* we need this for plugins
         <img src="https://unilagconsult.com.ng/cybercamp19/wp-content/uploads/2019/06/ccamp19.png" alt="Cyber Camp">
       </div>
       <div class="action-buttons">
-        <a href="https://paystack.com/pay/cybercamp" class="call-to-action register">Register</a>
+        <a href="https://unilagconsult.com.ng/cybercamp19/pay" class="call-to-action register">Register</a>
         <a href="http://unilagconsult.com.ng/cybercamp19/contact#contact" class="call-to-action contact">Not Convinced?</a>
       </div>
     </div>

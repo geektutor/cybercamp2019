@@ -39,7 +39,7 @@ wp_head(); //* we need this for plugins
         <li><a href="https://unilagconsult.com.ng/cybercamp19/team#team">Meet The Team</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/showcase#showcase">Showcase</a></li>
         <li><a href="https://unilagconsult.com.ng/cybercamp19/contact#contact">Contact</a></li>
-        <li><a href="https://paystack.com/pay/cybercamp" class="call-to-action">Register</a></li>
+        <li><a href="https://unilagconsult.com.ng/cybercamp19/pay" class="call-to-action">Register</a></li>
       </ul>
     </nav>
     <div class="header-image">
