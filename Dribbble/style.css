@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(witch.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar a {
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: rgb(179, 10, 10);
+}
+
+.logo {
+    width: 95px;
+    height: 25px;
+}
+
+.row {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col-1-of-2 {
+    width: 400px;
+    color: white;
+    padding-top: 150px;
+}
+
+.first {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.second {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.paragraph {
+    font-size: 14px;
+}
+
+.button {
+    background-color: #fff;
+    border: none;
+    color: rgb(134, 2, 2);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.dema a:hover {
+    color: white;
+    background-color: rgb(134, 2, 2);
+}
